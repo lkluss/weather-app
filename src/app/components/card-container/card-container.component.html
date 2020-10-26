@@ -1,0 +1,11 @@
+<mat-card *ngIf="cardDetails$ | async as details" class="card-container">
+  <mat-card-content>
+    <p class="card-title">{{ details.name }}</p>
+    <p><img [src]="getIcon(details.weather[0].icon)"></p>
+    <p class="card-deree">{{ details.main.temp }}&deg;C</p>
+    <p class="card-subtitle">{{ details.weather[0].main }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="removeCard()">REMOVE</button>
+  </mat-card-actions>
+</mat-card>

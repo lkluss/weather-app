@@ -1,0 +1,112 @@
+[
+    {
+        "id": 6695624,
+        "name": "Warszawa",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 21.04191,
+            "lat": 52.23547
+        }
+    },
+    {
+        "id": 3094802,
+        "name": "Kraków",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 19.91667,
+            "lat": 50.083328
+        }
+    },
+    {
+        "id": 3093133,
+        "name": "Łódź",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 19.466669,
+            "lat": 51.75
+        }
+    },
+    {
+        "id": 2643743,
+        "name": "London",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -0.12574,
+            "lat": 51.50853
+        }
+    },
+    {
+        "id": 2968815,
+        "name": "Paris",
+        "state": "",
+        "country": "FR",
+        "coord": {
+            "lon": 2.3486,
+            "lat": 48.853401
+        }
+    },
+    {
+        "id": 1704129,
+        "name": "Madrid",
+        "state": "",
+        "country": "PH",
+        "coord": {
+            "lon": 125.964371,
+            "lat": 9.26211
+        }
+    },
+    {
+        "id": 752967,
+        "name": "Żyrardów",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 20.44599,
+            "lat": 52.048801
+        }
+    },
+    {
+        "id": 3088171,
+        "name": "Poznań",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 16.92993,
+            "lat": 52.406921
+        }
+    },   
+    {
+        "id": 3083829,
+        "name": "Szczecin",
+        "state": "",
+        "country": "PL",
+        "coord": {
+            "lon": 14.55302,
+            "lat": 53.42894
+        }
+    },
+    {
+        "id": 3169070,
+        "name": "Rome",
+        "state": "",
+        "country": "IT",
+        "coord": {
+            "lon": 12.4839,
+            "lat": 41.894741
+        }
+    },    
+    {
+        "id": 2950158,
+        "name": "Berlin",
+        "state": "",
+        "country": "DE",
+        "coord": {
+            "lon": 10.45,
+            "lat": 54.033329
+        }
+    }
+]

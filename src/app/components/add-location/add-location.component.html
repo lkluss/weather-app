@@ -1,0 +1,11 @@
+<form [formGroup]="form" (submit)="onSubmit()">
+  <mat-form-field appearance="fill">
+    <mat-label>Add Location</mat-label>
+    <mat-select [formControl]="cityName" name="cityName">
+      <mat-option *ngFor="let location of (locations$ | async)" [value]="location.id">
+        {{location.name}}, {{location.country}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button color="primary" type="submit" class="add-button">Add</button>
+</form>

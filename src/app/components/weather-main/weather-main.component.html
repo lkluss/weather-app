@@ -1,0 +1,17 @@
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="mat-display-1">Weather app</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <app-add-location></app-add-location>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-4 col-6 py-3" *ngFor="let card of cards$ | async">
+      <app-card-container [cityId]="card.id"></app-card-container>
+    </div>
+  </div>
+</div>
